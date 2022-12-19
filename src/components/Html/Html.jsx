@@ -2100,7 +2100,7 @@ function Html(props) {
                 alt={'Actions Icon'}
               />
               <HeroContent>
-                <HeroTxt data={data}>{data.testTitle}</HeroTxt>
+                <HeroTxt data={data}>{data.testTitle2}</HeroTxt>
                 <HeroSub data={data}>
                   {`Design what you want and automatically bring pixel-perfect, responsive sites to life. `}
                 </HeroSub>
