@@ -2100,22 +2100,7 @@ function Html(props) {
                 alt={'Actions Icon'}
               />
               <HeroContent>
-                <HeroTxt data={data}>
-                  {data.isTablet
-                    ? `Convert
-your design
-into a launch
-ready website`
-                    : data.isMobile
-                    ? `Convert
-your design
-into a launch
-ready website`
-                    : `Convert
-your design
-into a launch
-ready webpages`}
-                </HeroTxt>
+                <HeroTxt data={data}>{data.testTitle}</HeroTxt>
                 <HeroSub data={data}>
                   {`Design what you want and automatically bring pixel-perfect, responsive sites to life. `}
                 </HeroSub>
