@@ -75,7 +75,7 @@ const HeroContent = styled('div', {
 const HeroDesktop = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Web3_hero_desktop.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_hero_desktop.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -733,7 +733,7 @@ const IterateBetween1 = styled('div', {
 const Sec2 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Web3_sec2.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_sec2.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1213,7 +1213,7 @@ const IterateBetween3 = styled('div', {
 const Sec3 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Web3_sec3.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_sec3.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1362,10 +1362,10 @@ const Rectangle178 = styled('div', {
 })(({ data }) => ({
   backgroundImage:
     data.currentVariant === 'ScreensTablet'
-      ? `url(assets/images/undefined)`
+      ? `url(assets/images/img/imgtest/undefined)`
       : data.currentVariant === 'ScreensMobile'
-      ? `url(assets/images/undefined)`
-      : `url(assets/images/Web3_Rectangle_178.png)`,
+      ? `url(assets/images/img/imgtest/undefined)`
+      : `url(assets/images/img/imgtest/Web3_Rectangle_178.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1420,10 +1420,10 @@ const Rectangle1781 = styled('div', {
 })(({ data }) => ({
   backgroundImage:
     data.currentVariant === 'ScreensTablet'
-      ? `url(assets/images/undefined)`
+      ? `url(assets/images/img/imgtest/undefined)`
       : data.currentVariant === 'ScreensMobile'
-      ? `url(assets/images/undefined)`
-      : `url(assets/images/Web3_Rectangle_178_1.png)`,
+      ? `url(assets/images/img/imgtest/undefined)`
+      : `url(assets/images/img/imgtest/Web3_Rectangle_178_1.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1478,10 +1478,10 @@ const Rectangle1782 = styled('div', {
 })(({ data }) => ({
   backgroundImage:
     data.currentVariant === 'ScreensTablet'
-      ? `url(assets/images/undefined)`
+      ? `url(assets/images/img/imgtest/undefined)`
       : data.currentVariant === 'ScreensMobile'
-      ? `url(assets/images/undefined)`
-      : `url(assets/images/Web3_Rectangle_178_2.png)`,
+      ? `url(assets/images/img/imgtest/undefined)`
+      : `url(assets/images/img/imgtest/Web3_Rectangle_178_2.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1656,7 +1656,7 @@ const Chart1 = styled('img', {
 const Sec7 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Web3_sec7.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_sec7.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1829,10 +1829,10 @@ const Chart11 = styled('div', {
 })(({ data }) => ({
   backgroundImage:
     data.currentVariant === 'ScreensTablet'
-      ? `url(assets/images/undefined)`
+      ? `url(assets/images/img/imgtest/undefined)`
       : data.currentVariant === 'ScreensMobile'
-      ? `url(assets/images/undefined)`
-      : `url(assets/images/Web3_chart_1_1.png)`,
+      ? `url(assets/images/img/imgtest/undefined)`
+      : `url(assets/images/img/imgtest/Web3_chart_1_1.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -2098,7 +2098,7 @@ const Typeform = styled('div', {
 const DiscoverSec = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Web3_Discover_Sec.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_Discover_Sec.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -2442,7 +2442,7 @@ const BtmImage = styled('div', {
 }));
 
 const Sec4Image = styled('div')({
-  backgroundImage: `url(assets/images/Web3_sec4_Image.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Web3_sec4_Image.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -2499,7 +2499,7 @@ function Web3(props) {
           <Sec4Text data={data}>
             <Subtitle data={data}>
               <ActionsIcon
-                src={`assets/images/Web3_Actions_Icon.png`}
+                src={`assets/images/img/imgtest/Web3_Actions_Icon.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
@@ -2515,7 +2515,7 @@ function Web3(props) {
           </Sec4Text>
           <Dashboard
             data={data}
-            src={`assets/images/Web3_dashboard.png`}
+            src={`assets/images/img/imgtest/Web3_dashboard.png`}
             loading="lazy"
             alt={'dashboard'}
           />
@@ -2524,7 +2524,7 @@ function Web3(props) {
         <BuildBoldPoints data={data}>
           <Frame1253 data={data}>
             <Icon1
-              src={`assets/images/Web3_icon.png`}
+              src={`assets/images/img/imgtest/Web3_icon.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2537,7 +2537,7 @@ function Web3(props) {
           </Frame1253>
           <Frame1254 data={data}>
             <Icon2
-              src={`assets/images/Web3_icon_1.png`}
+              src={`assets/images/img/imgtest/Web3_icon_1.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2548,7 +2548,7 @@ function Web3(props) {
           </Frame1254>
           <Frame1255 data={data}>
             <Icon3
-              src={`assets/images/Web3_icon_2.png`}
+              src={`assets/images/img/imgtest/Web3_icon_2.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2564,7 +2564,7 @@ function Web3(props) {
           <Sec4Text1 data={data}>
             <Subtitle1>
               <ActionsIcon1
-                src={`assets/images/Web3_Actions_Icon_1.png`}
+                src={`assets/images/img/imgtest/Web3_Actions_Icon_1.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
@@ -2588,7 +2588,7 @@ function Web3(props) {
           </Sec4Text1>
           <FigmaToReactWithMui
             data={data}
-            src={`assets/images/Web3_Figma_to_React_with_MUI.png`}
+            src={`assets/images/img/imgtest/Web3_Figma_to_React_with_MUI.png`}
             loading="lazy"
             alt={'Figma to React with MUI'}
           />
@@ -2599,7 +2599,7 @@ function Web3(props) {
         <BuildBoldPoints1 data={data}>
           <Frame1259 data={data}>
             <Icon4
-              src={`assets/images/Web3_icon_3.png`}
+              src={`assets/images/img/imgtest/Web3_icon_3.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2610,7 +2610,7 @@ function Web3(props) {
           </Frame1259>
           <Frame12510 data={data}>
             <Icon5
-              src={`assets/images/Web3_icon_4.png`}
+              src={`assets/images/img/imgtest/Web3_icon_4.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2621,7 +2621,7 @@ function Web3(props) {
           </Frame12510>
           <Frame126 data={data}>
             <Icon6
-              src={`assets/images/Web3_icon_5.png`}
+              src={`assets/images/img/imgtest/Web3_icon_5.png`}
               loading="lazy"
               alt={'icon'}
             />
@@ -2636,7 +2636,7 @@ function Web3(props) {
         <Frame127 data={data}>
           <Subtitle2>
             <ActionsIcon2
-              src={`assets/images/Web3_Actions_Icon_2.png`}
+              src={`assets/images/img/imgtest/Web3_Actions_Icon_2.png`}
               loading="lazy"
               alt={'Actions Icon'}
             />
@@ -2667,7 +2667,7 @@ Management`}
           <Frame1272 data={data}>
             <Subtitle3>
               <ActionsIcon3
-                src={`assets/images/Web3_Actions_Icon_3.png`}
+                src={`assets/images/img/imgtest/Web3_Actions_Icon_3.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
@@ -2680,7 +2680,7 @@ Management`}
             </DiscoverThe1>
             <Chart1
               data={data}
-              src={`assets/images/Web3_chart_1.png`}
+              src={`assets/images/img/imgtest/Web3_chart_1.png`}
               loading="lazy"
               alt={'chart 1'}
             />
@@ -2692,7 +2692,7 @@ Management`}
           <Frame1273 data={data}>
             <Subtitle4>
               <ActionsIcon4
-                src={`assets/images/Web3_Actions_Icon_4.png`}
+                src={`assets/images/img/imgtest/Web3_Actions_Icon_4.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
@@ -2719,7 +2719,7 @@ Management`}
             <Frame12513 data={data}>
               <Subtitle5>
                 <ActionsIcon5
-                  src={`assets/images/Web3_Actions_Icon_5.png`}
+                  src={`assets/images/img/imgtest/Web3_Actions_Icon_5.png`}
                   loading="lazy"
                   alt={'Actions Icon'}
                 />
@@ -2744,7 +2744,7 @@ Management`}
           <Frame1262>
             <Subtitle6>
               <ActionsIcon6
-                src={`assets/images/Web3_Actions_Icon_6.png`}
+                src={`assets/images/img/imgtest/Web3_Actions_Icon_6.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />

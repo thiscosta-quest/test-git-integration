@@ -35,7 +35,7 @@ const ScreenDesktop = styled('div')({
 const HeroBg = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/Startups_heroBG.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Startups_heroBG.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -630,7 +630,7 @@ const Sec3 = animated(
   styled('div', {
     shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
   })(({ data }) => ({
-    backgroundImage: `url(assets/images/Startups_sec_3.png)`,
+    backgroundImage: `url(assets/images/img/imgtest/Startups_sec_3.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -1427,7 +1427,7 @@ const ZebraT = animated(
   styled('div', {
     shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
   })(({ data }) => ({
-    backgroundImage: `url(assets/images/Startups_zebra_t.png)`,
+    backgroundImage: `url(assets/images/img/imgtest/Startups_zebra_t.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -1447,7 +1447,7 @@ const ZebraM = animated(
   styled('div', {
     shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
   })(({ data }) => ({
-    backgroundImage: `url(assets/images/Startups_zebra_m.png)`,
+    backgroundImage: `url(assets/images/img/imgtest/Startups_zebra_m.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -1935,7 +1935,7 @@ const Image1 = animated(
 );
 
 const Thumb = styled('div')({
-  backgroundImage: `url(assets/images/Startups_thumb.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Startups_thumb.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -1972,7 +1972,7 @@ const Image2 = animated(
 );
 
 const Thumb1 = styled('div')({
-  backgroundImage: `url(assets/images/Startups_thumb_1.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Startups_thumb_1.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -2009,7 +2009,7 @@ const Image3 = animated(
 );
 
 const Thumb2 = styled('div')({
-  backgroundImage: `url(assets/images/Startups_thumb_2.png)`,
+  backgroundImage: `url(assets/images/img/imgtest/Startups_thumb_2.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -2028,7 +2028,7 @@ const DiscoverSec = animated(
   styled('div', {
     shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
   })(({ data }) => ({
-    backgroundImage: `url(assets/images/Startups_Discover_Sec.png)`,
+    backgroundImage: `url(assets/images/img/imgtest/Startups_Discover_Sec.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -2304,7 +2304,7 @@ const Sec4Image = animated(
   styled('div', {
     shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
   })(({ data }) => ({
-    backgroundImage: `url(assets/images/Startups_sec4_Image.png)`,
+    backgroundImage: `url(assets/images/img/imgtest/Startups_sec4_Image.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -6042,7 +6042,7 @@ function Startups(props) {
               <HeroContent1 data={data} style={{ ...HeroContent1StateStyles }}>
                 <ActionsIcon
                   data={data}
-                  src={`assets/images/Startups_Actions_Icon.png`}
+                  src={`assets/images/img/imgtest/Startups_Actions_Icon.png`}
                   loading="lazy"
                   alt={'Actions Icon'}
                   style={{ ...ActionsIconStateStyles }}
@@ -6087,7 +6087,7 @@ function Startups(props) {
                     <Card data={data} style={{ ...CardStateStyles }}>
                       <IconTeam
                         data={data}
-                        src={`assets/images/Startups_icon_team.png`}
+                        src={`assets/images/img/imgtest/Startups_icon_team.png`}
                         loading="lazy"
                         alt={'icon team'}
                         style={{ ...IconTeamStateStyles }}
@@ -6110,7 +6110,7 @@ function Startups(props) {
                     <Card3 data={data} style={{ ...Card3StateStyles }}>
                       <IconTimeline
                         data={data}
-                        src={`assets/images/Startups_icon_timeline.png`}
+                        src={`assets/images/img/imgtest/Startups_icon_timeline.png`}
                         loading="lazy"
                         alt={'icon timeline'}
                         style={{ ...IconTimelineStateStyles }}
@@ -6133,7 +6133,7 @@ function Startups(props) {
                     <Card4 data={data} style={{ ...Card4StateStyles }}>
                       <TeamIcon
                         data={data}
-                        src={`assets/images/Startups_team_icon.png`}
+                        src={`assets/images/img/imgtest/Startups_team_icon.png`}
                         loading="lazy"
                         alt={'team_icon'}
                         style={{ ...TeamIconStateStyles }}
@@ -6199,21 +6199,21 @@ function Startups(props) {
               <Icons data={data} style={{ ...IconsStateStyles }}>
                 <Figma
                   data={data}
-                  src={`assets/images/Startups_figma.png`}
+                  src={`assets/images/img/imgtest/Startups_figma.png`}
                   loading="lazy"
                   alt={'figma'}
                   style={{ ...FigmaStateStyles }}
                 />
                 <Logo2
                   data={data}
-                  src={`assets/images/Startups_logo_2.png`}
+                  src={`assets/images/img/imgtest/Startups_logo_2.png`}
                   loading="lazy"
                   alt={'logo 2'}
                   style={{ ...Logo2StateStyles }}
                 />
                 <Github
                   data={data}
-                  src={`assets/images/Startups_github.png`}
+                  src={`assets/images/img/imgtest/Startups_github.png`}
                   loading="lazy"
                   alt={'github'}
                   style={{ ...GithubStateStyles }}
@@ -6229,28 +6229,28 @@ function Startups(props) {
               <Icons1 data={data} style={{ ...Icons1StateStyles }}>
                 <Js
                   data={data}
-                  src={`assets/images/Startups_js.png`}
+                  src={`assets/images/img/imgtest/Startups_js.png`}
                   loading="lazy"
                   alt={'js'}
                   style={{ ...JsStateStyles }}
                 />
                 <Ts
                   data={data}
-                  src={`assets/images/Startups_ts.png`}
+                  src={`assets/images/img/imgtest/Startups_ts.png`}
                   loading="lazy"
                   alt={'ts'}
                   style={{ ...TsStateStyles }}
                 />
                 <React1
                   data={data}
-                  src={`assets/images/Startups_react.png`}
+                  src={`assets/images/img/imgtest/Startups_react.png`}
                   loading="lazy"
                   alt={'react'}
                   style={{ ...React1StateStyles }}
                 />
                 <Next
                   data={data}
-                  src={`assets/images/Startups_next.png`}
+                  src={`assets/images/img/imgtest/Startups_next.png`}
                   loading="lazy"
                   alt={'next'}
                   style={{ ...NextStateStyles }}
@@ -6276,21 +6276,21 @@ function Startups(props) {
               <Devices data={data} style={{ ...DevicesStateStyles }}>
                 <Mobile
                   data={data}
-                  src={`assets/images/Startups_mobile.png`}
+                  src={`assets/images/img/imgtest/Startups_mobile.png`}
                   loading="lazy"
                   alt={'mobile'}
                   style={{ ...MobileStateStyles }}
                 />
                 <Tablet
                   data={data}
-                  src={`assets/images/Startups_tablet.png`}
+                  src={`assets/images/img/imgtest/Startups_tablet.png`}
                   loading="lazy"
                   alt={'tablet'}
                   style={{ ...TabletStateStyles }}
                 />
                 <Desktop
                   data={data}
-                  src={`assets/images/Startups_desktop.png`}
+                  src={`assets/images/img/imgtest/Startups_desktop.png`}
                   loading="lazy"
                   alt={'desktop'}
                   style={{ ...DesktopStateStyles }}
@@ -6300,7 +6300,7 @@ function Startups(props) {
             <BulletPoint11 data={data} style={{ ...BulletPoint11StateStyles }}>
               <TurboIcon
                 data={data}
-                src={`assets/images/Startups_Turbo_icon.png`}
+                src={`assets/images/img/imgtest/Startups_Turbo_icon.png`}
                 loading="lazy"
                 alt={'Turbo icon'}
                 style={{ ...TurboIconStateStyles }}
@@ -6327,10 +6327,10 @@ function Startups(props) {
                 data={data}
                 src={`${
                   data.currentVariant === 'ScreenTablet'
-                    ? 'assets/images/Startups_img_workspaces_1.png'
+                    ? 'assets/images/img/imgtest/Startups_img_workspaces_1.png'
                     : data.currentVariant === 'ScreenMobile'
-                    ? 'assets/images/Startups_img_workspaces_2.png'
-                    : 'assets/images/Startups_img_workspaces.png'
+                    ? 'assets/images/img/imgtest/Startups_img_workspaces_2.png'
+                    : 'assets/images/img/imgtest/Startups_img_workspaces.png'
                 }`}
                 loading="lazy"
                 alt={'img:workspaces'}
@@ -6354,7 +6354,7 @@ function Startups(props) {
             <BulletPoint6 data={data} style={{ ...BulletPoint6StateStyles }}>
               <ScreenShot20220922At
                 data={data}
-                src={`assets/images/Startups_Screen_Shot_2022_09_22_at_2_46_1.png`}
+                src={`assets/images/img/imgtest/Startups_Screen_Shot_2022_09_22_at_2_46_1.png`}
                 loading="lazy"
                 alt={'Screen Shot 2022-09-22 at 2.46 1'}
                 style={{ ...ScreenShot20220922AtStateStyles }}
@@ -6411,7 +6411,7 @@ function Startups(props) {
             <LeftSide data={data} style={{ ...LeftSideStateStyles }}>
               <Subtitle data={data} style={{ ...SubtitleStateStyles }}>
                 <ActionsIcon1
-                  src={`assets/images/Startups_Actions_Icon_1.png`}
+                  src={`assets/images/img/imgtest/Startups_Actions_Icon_1.png`}
                   loading="lazy"
                   alt={'Actions Icon'}
                 />
@@ -6475,7 +6475,7 @@ function Startups(props) {
           <Frame1261 data={data} style={{ ...Frame1261StateStyles }}>
             <Subtitle1>
               <ActionsIcon2
-                src={`assets/images/Startups_Actions_Icon_2.png`}
+                src={`assets/images/img/imgtest/Startups_Actions_Icon_2.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
