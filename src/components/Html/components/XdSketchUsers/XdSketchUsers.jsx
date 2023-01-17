@@ -688,7 +688,7 @@ const Image1 = styled('div', {
 const Thumb = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_thumb.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_thumb.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -783,7 +783,7 @@ const Image4 = styled('div', {
 const Thumb1 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_thumb_1.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_thumb_1.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -876,7 +876,7 @@ const XdToFigma = styled('div', {
 const Magicul = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_magicul.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_magicul.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1342,7 +1342,7 @@ const Image5 = styled('div', {
 const Thumb2 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_thumb_2.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_thumb_2.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -1432,7 +1432,7 @@ const Image6 = styled('div', {
 const Thumb3 = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_thumb_3.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_thumb_3.png)`,
   backgroundPosition: `center`,
   backgroundSize: `contain`,
   backgroundRepeat: `no-repeat`,
@@ -1594,7 +1594,7 @@ const AddSketch1 = styled('div', {
 const DiscoverSec = styled('div', {
   shouldForwardProp: (prop) => !['data'].includes(prop.toString()),
 })(({ data }) => ({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_Discover_Sec.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_Discover_Sec.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1902,7 +1902,7 @@ const BtmImage = styled('div')({
 });
 
 const Sec4Image = styled('div')({
-  backgroundImage: `url(assets/images/img/imgtest/XDSketchUsers_sec4_Image.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/XDSketchUsers_sec4_Image.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -1927,7 +1927,7 @@ function XdSketchUsers(props) {
           <HeroDesktop data={data}>
             <HeroAll data={data}>
               <ActionsIcon
-                src={`assets/images/img/imgtest/XDSketchUsers_Actions_Icon.png`}
+                src={`./assets/images/img/imgtest/XDSketchUsers_Actions_Icon.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />
@@ -1936,7 +1936,7 @@ function XdSketchUsers(props) {
                   <Xd data={data}>
                     <Image3
                       data={data}
-                      src={`assets/images/img/imgtest/XDSketchUsers_image_3.png`}
+                      src={`./assets/images/img/imgtest/XDSketchUsers_image_3.png`}
                       loading="lazy"
                       alt={'image 3'}
                     />
@@ -1946,7 +1946,7 @@ function XdSketchUsers(props) {
                   <Sketch data={data}>
                     <Image2
                       data={data}
-                      src={`assets/images/img/imgtest/XDSketchUsers_image_2.png`}
+                      src={`./assets/images/img/imgtest/XDSketchUsers_image_2.png`}
                       loading="lazy"
                       alt={'image 2'}
                     />
@@ -1970,7 +1970,7 @@ function XdSketchUsers(props) {
               <LeftSide data={data}>
                 <Subtitle data={data}>
                   <ActionsIcon1
-                    src={`assets/images/img/imgtest/XDSketchUsers_Actions_Icon_1.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_Actions_Icon_1.png`}
                     loading="lazy"
                     alt={'Actions Icon'}
                   />
@@ -2001,7 +2001,7 @@ function XdSketchUsers(props) {
                 {!(data.currentVariant === 'Property1Tablet') && (
                   <ArrowRight
                     data={data}
-                    src={`assets/images/img/imgtest/XDSketchUsers_arrow_right.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_arrow_right.png`}
                     loading="lazy"
                     alt={'arrow right'}
                   />
@@ -2009,7 +2009,7 @@ function XdSketchUsers(props) {
                 {data.currentVariant === 'Property1Tablet' && (
                   <ArrowDown
                     data={data}
-                    src={`assets/images/img/imgtest/XDSketchUsers_arrow_down.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_arrow_down.png`}
                     loading="lazy"
                     alt={'arrow down'}
                   />
@@ -2058,7 +2058,7 @@ Magicul will convert all parts of the visual design but also includes symbols, t
               <LeftSide1>
                 <Subtitle1>
                   <ActionsIcon2
-                    src={`assets/images/img/imgtest/XDSketchUsers_Actions_Icon_2.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_Actions_Icon_2.png`}
                     loading="lazy"
                     alt={'Actions Icon'}
                   />
@@ -2090,7 +2090,7 @@ Sketch file to convert it into a Figma file.`}
                 {!(data.currentVariant === 'Property1Tablet') && (
                   <ArrowRight1
                     data={data}
-                    src={`assets/images/img/imgtest/XDSketchUsers_arrow_right_1.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_arrow_right_1.png`}
                     loading="lazy"
                     alt={'arrow right'}
                   />
@@ -2098,7 +2098,7 @@ Sketch file to convert it into a Figma file.`}
                 {data.currentVariant === 'Property1Tablet' && (
                   <ArrowDown1
                     data={data}
-                    src={`assets/images/img/imgtest/XDSketchUsers_arrow_down_1.png`}
+                    src={`./assets/images/img/imgtest/XDSketchUsers_arrow_down_1.png`}
                     loading="lazy"
                     alt={'arrow down'}
                   />
@@ -2113,7 +2113,7 @@ Sketch file to convert it into a Figma file.`}
               <SketchToFigma data={data}>
                 <SketchToFigma1
                   data={data}
-                  src={`assets/images/img/imgtest/XDSketchUsers_sketch_to_figma_1.png`}
+                  src={`./assets/images/img/imgtest/XDSketchUsers_sketch_to_figma_1.png`}
                   loading="lazy"
                   alt={'sketch_to_figma 1'}
                 />
@@ -2132,7 +2132,7 @@ Sketch file to convert it into a Figma file.`}
           <Frame126 data={data}>
             <Subtitle2>
               <ActionsIcon3
-                src={`assets/images/img/imgtest/XDSketchUsers_Actions_Icon_3.png`}
+                src={`./assets/images/img/imgtest/XDSketchUsers_Actions_Icon_3.png`}
                 loading="lazy"
                 alt={'Actions Icon'}
               />

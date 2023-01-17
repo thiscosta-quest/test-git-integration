@@ -38,10 +38,10 @@ const ImgFrame4 = animated(
   })(({ data }) => ({
     backgroundImage:
       data.currentVariant === 'Property1Variant2'
-        ? `url(assets/images/img/imgtest/imageuploadtest_img_Frame4_1.png)`
+        ? `url(./assets/images/img/imgtest/imageuploadtest_img_Frame4_1.png)`
         : data.currentVariant === 'Property1Variant3'
-        ? `url(assets/images/img/imgtest/imageuploadtest_img_Frame4_2.png)`
-        : `url(assets/images/img/imgtest/imageuploadtest_img_Frame4.png)`,
+        ? `url(./assets/images/img/imgtest/imageuploadtest_img_Frame4_2.png)`
+        : `url(./assets/images/img/imgtest/imageuploadtest_img_Frame4.png)`,
     backgroundPosition: `center`,
     backgroundSize: `cover`,
     backgroundRepeat: `no-repeat`,
@@ -245,10 +245,10 @@ function ImageUploadTest(props) {
             }}
             src={`${
               data.currentVariant === 'Property1Variant2'
-                ? 'assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2_1.png'
+                ? './assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2_1.png'
                 : data.currentVariant === 'Property1Variant3'
-                ? 'assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2_2.png'
-                : 'assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2.png'
+                ? './assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2_2.png'
+                : './assets/images/img/imgtest/imageuploadtest_img_Q_3D_Current_View2.png'
             }`}
             loading="lazy"
             alt={'img:Q_3D-Current-View2'}
@@ -266,12 +266,12 @@ function ImageUploadTest(props) {
             </EngineeringStandup>
             <PlaylistAddCheck>
               <Vector
-                src={`assets/images/img/imgtest/imageuploadtest_Vector.png`}
+                src={`./assets/images/img/imgtest/imageuploadtest_Vector.png`}
                 loading="lazy"
                 alt={'Vector'}
               />
               <Q3DCurrentView21
-                src={`assets/images/img/imgtest/imageuploadtest_Q_3D_Current_View2_1.png`}
+                src={`./assets/images/img/imgtest/imageuploadtest_Q_3D_Current_View2_1.png`}
                 loading="lazy"
                 alt={'Q_3D-Current-View2 1'}
               />

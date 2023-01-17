@@ -14,7 +14,7 @@
 
 import React from 'react';
 import { Button, SvgIcon } from '@mui/material';
-import ChevronLeftFilled1 from 'public/assets/images/img/imgtest/_ChevronLeftFilled.svg';
+import ChevronLeftFilled1 from 'public/../assets/images/img/imgtest/_ChevronLeftFilled.svg';
 import { styled } from '@mui/material/styles';
 
 const TypeType2 = styled('div')(({ theme }) => ({
@@ -35,7 +35,7 @@ const TypeType2 = styled('div')(({ theme }) => ({
 }));
 
 const Image1 = styled('div')({
-  backgroundImage: `url(assets/images/img/imgtest/Lodging_Image1.png)`,
+  backgroundImage: `url(./assets/images/img/imgtest/Lodging_Image1.png)`,
   backgroundPosition: `center`,
   backgroundSize: `cover`,
   backgroundRepeat: `no-repeat`,
@@ -297,7 +297,7 @@ function Lodging(props) {
               <Price>{`$1,250 / night`}</Price>
               <Rating>
                 <Star
-                  src={`assets/images/img/imgtest/Lodging_star.png`}
+                  src={`./assets/images/img/imgtest/Lodging_star.png`}
                   loading="lazy"
                   alt={'star'}
                 />
